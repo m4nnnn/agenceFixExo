@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function(){
 		console.log('lightbox element found:', !!lightbox);
 		if(!lightbox) return;
 		const imgEl = lightbox.querySelector('.lightbox-img');
-		const closeBtn = lightbox.querySelector('.lightbox-close');
 
 		document.addEventListener('click', (e)=>{
 			const trigger = e.target.closest('.lightbox-trigger');
